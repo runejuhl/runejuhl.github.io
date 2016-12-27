@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1' name='viewport'>
+<title>SICP Distilled</title>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href="/sicpdistilled/stylesheets/all-e81cfb05.css" rel="stylesheet" />
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+</html>
+<body>
+<div class='menu--mobile js-mobile-nav' data-target='menu'>Menu</div>
+<div class='menu'>
+<a href='/'>
+<img alt='SICP Distilled' class='logo' src='/sicpdistilled/images/sicp2-07ad7dbe.jpg'>
+</a>
+<h1 class='menu__title done'>
+<a href='/'>
+SICP Distilled
+</a>
+</h1>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/licence'>
+<img alt='CC by-sa' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' style='border-width:0'>
+Licence
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/donate'>
+<img alt='MSF ' src='/sicpdistilled/images/msf-b09b7038.jpg' style='border-width:0' width='88px'>
+Donate
+</a>
+</li>
+</ul>
+<h2>Ch1 - Building Abstractions With Functions</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/1-distilled'>
+Chapter 1 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1'>
+1.1 - The Elements Of Programming
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.1'>
+Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.2'>
+Naming and the Environment
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.3'>
+Evaluating Combinations
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.4'>
+Defining New Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.5'>
+The Substitution Model
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1-exercises'>
+Exercises
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6a'>
+Predicates
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6b'>
+Conditional Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.7'>
+Example: Newton’s Method
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.8'>
+Functions as Black-Box Abstractions
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2'>
+1.2 - Procedures and the Processes They Generate
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.1'>
+Linear Recursion and Iteration
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.2'>
+Tree Recursion
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.3'>
+Orders of Growth
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.4'>
+Exponentiation
+</a>
+</li>
+<il class='done'>
+<a href='/sicpdistilled/section/1.2.5'>
+Greatest Common Divisors
+</a>
+</il>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.6'>
+Example: Testing For Primality
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.3-higher-order'>
+1.3 Higher Order Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-blackjack'>
+Project - Blackjack
+</a>
+</li>
+</ul>
+<h2>Ch2 - Building Abstractions With Data</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/2-distilled'>
+Chapter 2 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-data-abstraction'>
+Data Abstraction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-nothing'>
+Everything From Nothing
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-abstractions'>
+Abstractions In Clojure
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-structures'>
+Clojure's Data Structures
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-abstraction-clj'>
+Data Abstraction, Revisited
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-escher'>
+Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-escher'>
+Project - Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-symbolic'>
+Symbolic Data
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-sets'>
+Representing Sets
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-escher'>
+Huffman Encoding Trees
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-zippers'>
+Zippers
+</a>
+</li>
+</ul>
+<h2>Ch3 - Modularity, Objects, and State</h2>
+<h2>Ch4 - Metalinguistic Abstraction</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/4.1'>
+4.1 - The Metacircular Evaluator
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/halting'>
+The Halting Problem
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/y'>
+The Y Combinator
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.2'>
+4.2 - Lazy Evaluation
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.3'>
+4.3 - Nondeterministic Computing
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.4'>
+4.4 - Logic Programming
+</a>
+</li>
+</ul>
+</div>
+<div class='container menu--push'>
+<h1>First Class Elements in Languages</h1>
+
+<p>In general, programming languages impose restrictions on the ways
+in which computational elements can be manipulated. Elements with
+the fewest restrictions are said to have first-class status, an idea
+originally due to <a href="#">Christopher Strachey</a></p>
+
+<p>Some of the “rights and privileges” of first-class elements are that they may be:</p>
+
+<ul>
+<li>Named by variables</li>
+<li>Passed as arguments to functions</li>
+<li>Returned as the results of functions</li>
+<li>Included in data structures</li>
+</ul>
+
+<p>Lisps, unlike other common programming languages, awards functions
+full first-class status. This poses challenges for efficient implementation,
+but the resulting gain in expressive power is enormous.</p>
+
+<p>The major implementation cost of first-class functions is that allowing functions
+to be returned as values requires reserving storage for a function’s free variables even
+while the function is not executing. In the Scheme implementation we will study in
+Section 4.1, these variables are stored in the function’s environment.</p>
+
+<h1>Higher-Order Functions</h1>
+
+<p>We have seen that functions are, in effect, abstractions that describe
+compound operations on numbers independent of the particular numbers. For example, when we write</p>
+
+<pre><code class="clojure">(defn cube [x]
+  (* x x x))
+</code></pre>
+
+<p>we are not talking about the cube of a particular number, but rather
+about a method for obtaining the cube of any number. Of course we
+could get along without ever defining this function, by always writing
+expressions such as</p>
+
+<pre><code class="clojure">(* 3 3 3)
+(* x x x)
+(* y y y)
+</code></pre>
+
+<p>and never mentioning cube explicitly. This would place us at a serious
+disadvantage, forcing us to work always at the level of the particular operations
+that happen to be primitives in the language (multiplication, in
+this case) rather than in terms of higher-level operations. Our programs
+would be able to compute cubes, but our language would lack the ability
+to express the concept of cubing. One of the things we should demand
+from a powerful programming language is the ability to build abstractions by
+assigning names to common patterns and then to work in terms
+of the abstractions directly. Functions provide this ability. This is why
+all but the most primitive programming languages include mechanisms
+for defining functions.</p>
+
+<p>Yet even in numerical processing we will be severely limited in our
+ability to create abstractions if we are restricted to functions whose parameters
+must be numbers. Often the same programming pattern will
+be used with a number of different functions. To express such patterns
+as concepts, we will need to construct functions that can accept functions as
+arguments or return functions as values. Functions that
+manipulate functions are called <em>higher-order functions</em> .</p>
+
+<h1>Functions as Arguments</h1>
+
+<p>Have a look at these two functions</p>
+
+<pre><code class="clojure">(defn sum-integers [a b]
+  &quot;compute the sum of the integers from a through b&quot;
+  (if (&gt; a b)
+      0
+      (+ a (sum-integers (inc a) b))))
+</code></pre>
+
+<pre><code class="clojure">(defn sum-cubes [a b]
+  &quot;compute the sum of the cubes of the integers from a through b&quot;
+  (if (&gt; a b)
+      0
+      (+ (cube a)
+         (sum-cubes (inc a) b))))
+</code></pre>
+
+<p>These functions clearly share a common underlying pattern.  They are
+for the most part identical, differing only in the name of the
+function, the function of a used to compute the term to be added .</p>
+
+<p>We could generate each of the functions by filling in slots in the
+same template:</p>
+
+<pre><code class="clojure">(defn &lt;name&gt; [a b]
+  (if (&gt; a b)
+      0
+      (+ (&lt;term&gt; a)
+         (&lt;name&gt; (inc a) b))))
+</code></pre>
+
+<p>We would like our language to be powerful enough so that we can write
+a function that expresses the concept of summation itself rather than
+only functions that compute particular sums. We can do so readily by
+taking the common template shown above and transforming the &#39;term&#39;
+slot into a formal parameter:</p>
+
+<pre><code class="clojure">(defn sum-terms [term a b]
+  (if (&gt; a b)
+      0
+      (+ (term a)
+         (sum-terms term (inc a) b))))
+</code></pre>
+
+<p>Notice we cannot <code>recur</code> here as it is not in a tail position, trying
+to do so helpfully throws</p>
+
+<pre><code>java.lang.UnsupportedOperationException: Can only recur from tail position
+</code></pre>
+
+<p>So we can us this to find the sum of the the first 10 cubes</p>
+
+<pre><code class="clojure">&gt; (sum-terms cube 1 10)
+3025
+</code></pre>
+
+<p>Or the numbers 1 to 10</p>
+
+<pre><code class="clojure">&gt; (sum-terms identity 1 10)
+55
+</code></pre>
+
+<p><code>identity</code> is a clojure built-in function that just returns whatever
+you pass it</p>
+
+<h3>At the REPL</h3>
+
+<p>You can ask at the repl for the docs of a function</p>
+
+<pre><code class="clojure-repl">&gt; (doc identity)
+-------------------------
+clojure.core/identity
+([x])
+  Returns its argument.
+  nil
+</code></pre>
+
+<p>Or look at it&#39;s source, this comes in very handy</p>
+
+<pre><code class="clojure-repl">&gt; (source identity)
+(defn identity
+  &quot;Returns its argument.&quot;
+  {:added &quot;1.0&quot;
+   :static true}
+  [x] x)
+nil
+</code></pre>
+
+<h1>Anonymous Functions</h1>
+
+<p>Sometimes you only use a function once, and it is simple enough for
+it&#39;s purpose to be obvious without naming it, you can use an anonymous
+function</p>
+
+<p>The function <code>square</code> from before can be created with</p>
+
+<pre><code>(fn [x]
+  (* x x))
+</code></pre>
+
+<p>And can be called immediately</p>
+
+<pre><code class="clojure-repl">&gt; ((fn [x] (* x x))
+        2)
+4
+</code></pre>
+
+<p>Clojure even has a shorter form implemented as a
+<a href="http://clojure.org/reader#The%20Reader--Macro%20characters">reader macro</a></p>
+
+<pre><code class="clojure">#(* % %)
+</code></pre>
+
+<p>For example to sum the first 10 squares we can</p>
+
+<pre><code class="clojure">&gt; (sum-terms #(* % %) 1 10)
+385
+</code></pre>
+
+<p>If an anonymous function has more than one argument, they can be
+referenced as <code>%N</code> for each variable, eg</p>
+
+<pre><code class="clojure-repl">&gt; (#(str %2 &quot; &quot; %1)
+        &quot;arg1&quot;
+        &quot;arg2&quot;)
+&quot;arg2 arg1&quot;
+</code></pre>
+
+<h1>Functions as Return Values</h1>
+
+<p>Take a look at this function</p>
+
+<pre><code class="clojure">(defn adder [n]
+  (fn [m]
+    (+ m n)))
+</code></pre>
+
+<p>This function takes an argument <code>n</code> and returns a function (using our anonymous
+function syntax) that adds n to it&#39;s argument.</p>
+
+<p>We can create a function <code>add-2</code></p>
+
+<pre><code class="clojure-repl">&gt; (def add-2 (adder 2))
+#&#39;user/add-2
+
+&gt; (add-2 11)
+13
+</code></pre>
+
+<h1>Functions as both arguments and return values</h1>
+
+<p>We can do things like create a function that takes a function and returns a function
+that calls it with it&#39;s arguments reversed</p>
+
+<pre><code class="clojure">(defn flip [f]
+  (fn [x y]
+    (f y x)))
+</code></pre>
+
+<h1>Exercises</h1>
+
+<h2>Clojure built-ins</h2>
+
+<p>Take a look at <code>juxt</code> and <code>complement</code>, and try and create examples of their use.</p>
+
+<h2>Exercise 1.41:</h2>
+
+<p>Define a function double that takes a function of one argument as argument and
+returns a function that applies the original function twice. For example, if
+inc is a function that adds 1 to its argument, then
+<code>(double inc)</code> should be a function that adds 2. What
+value is returned by</p>
+
+<pre><code class="clojure">(((double (double double)) inc) 5)
+</code></pre>
+
+<h2>Exercise 1.42:</h2>
+
+<p>Let f and g be two one-argument functions.</p>
+
+<p>The <em>composition</em> of f and g, denoted $ f \circ  g $ is defined to be the function</p>
+
+<p>$$ x \rightarrow f(g(x)) $$</p>
+
+<p>Define a function <code>compose</code> that implements composition.</p>
+
+<p>You should find that</p>
+
+<pre><code class="clojure">&gt; ((compose square inc) 6)
+49
+</code></pre>
+
+<p>After you are done, take a peek at <code>(source comp)</code> to see how clojure does it in
+a variadic way</p>
+
+<h2>Exercise 1.43:</h2>
+
+<p>If f is a numerical function and n is a positive integer, then we can form the
+n<sup>th</sup> repeated application
+of f , which is defined to be the function whose value at
+x is</p>
+
+<p>$$ f (f (\dots (f (x )) \dots )) $$</p>
+
+<p>For example, if f is the function $ x \rightarrow x + 1 $
+then the n<sup>th</sup> repeated application of f is the
+function $ x \rightarrow x+n $</p>
+
+<p>If f is the operation of squaring a number, then the n<sup>th</sup>
+repeated application of f is the function</p>
+
+<p>$$ x \rightarrow x^{2^n} $$</p>
+
+<p>Write a function that takes as
+inputs a function that computes f and a
+positive integer n and returns the function that computes
+the n<sup>th</sup> repeated application of f . Your function should be
+able to be used as follows:</p>
+
+<pre><code class="clojure">=&gt; ((repeated square 2) 5)
+625
+</code></pre>
+
+</div>
+<script src='https://cdn.polyfill.io/v1/polyfill.min.js'></script>
+<script src="/sicpdistilled/javascripts/all-0c20c227.js"></script>
+</body>

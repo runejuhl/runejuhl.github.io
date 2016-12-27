@@ -1,0 +1,736 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1' name='viewport'>
+<title>SICP Distilled</title>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href="/sicpdistilled/stylesheets/all-e81cfb05.css" rel="stylesheet" />
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+</html>
+<body>
+<div class='menu--mobile js-mobile-nav' data-target='menu'>Menu</div>
+<div class='menu'>
+<a href='/'>
+<img alt='SICP Distilled' class='logo' src='/sicpdistilled/images/sicp2-07ad7dbe.jpg'>
+</a>
+<h1 class='menu__title done'>
+<a href='/'>
+SICP Distilled
+</a>
+</h1>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/licence'>
+<img alt='CC by-sa' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' style='border-width:0'>
+Licence
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/donate'>
+<img alt='MSF ' src='/sicpdistilled/images/msf-b09b7038.jpg' style='border-width:0' width='88px'>
+Donate
+</a>
+</li>
+</ul>
+<h2>Ch1 - Building Abstractions With Functions</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/1-distilled'>
+Chapter 1 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1'>
+1.1 - The Elements Of Programming
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.1'>
+Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.2'>
+Naming and the Environment
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.3'>
+Evaluating Combinations
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.4'>
+Defining New Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.5'>
+The Substitution Model
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1-exercises'>
+Exercises
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6a'>
+Predicates
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6b'>
+Conditional Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.7'>
+Example: Newton’s Method
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.8'>
+Functions as Black-Box Abstractions
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2'>
+1.2 - Procedures and the Processes They Generate
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.1'>
+Linear Recursion and Iteration
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.2'>
+Tree Recursion
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.3'>
+Orders of Growth
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.4'>
+Exponentiation
+</a>
+</li>
+<il class='done'>
+<a href='/sicpdistilled/section/1.2.5'>
+Greatest Common Divisors
+</a>
+</il>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.6'>
+Example: Testing For Primality
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.3-higher-order'>
+1.3 Higher Order Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-blackjack'>
+Project - Blackjack
+</a>
+</li>
+</ul>
+<h2>Ch2 - Building Abstractions With Data</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/2-distilled'>
+Chapter 2 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-data-abstraction'>
+Data Abstraction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-nothing'>
+Everything From Nothing
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-abstractions'>
+Abstractions In Clojure
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-structures'>
+Clojure's Data Structures
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-abstraction-clj'>
+Data Abstraction, Revisited
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-escher'>
+Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-escher'>
+Project - Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-symbolic'>
+Symbolic Data
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-sets'>
+Representing Sets
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-escher'>
+Huffman Encoding Trees
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-zippers'>
+Zippers
+</a>
+</li>
+</ul>
+<h2>Ch3 - Modularity, Objects, and State</h2>
+<h2>Ch4 - Metalinguistic Abstraction</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/4.1'>
+4.1 - The Metacircular Evaluator
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/halting'>
+The Halting Problem
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/y'>
+The Y Combinator
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.2'>
+4.2 - Lazy Evaluation
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.3'>
+4.3 - Nondeterministic Computing
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.4'>
+4.4 - Logic Programming
+</a>
+</li>
+</ul>
+</div>
+<div class='container menu--push'>
+<h1>Creating A Language Of Pictures</h1>
+
+<h2>How to describe Escher?</h2>
+
+<p><img src="/sicpdistilled/images/SquareLimit500-1f1a451c.jpg" width="450"></p>
+
+<p>This section presents a simple language for drawing pictures that
+illustrates the power of data abstraction and closure, and also
+exploits higher-order functions in an essential way. The language is
+designed to make it easy to experiment with patterns such as the ones
+in the Escher picture above, which are composed of repeated elements
+that are shifted and scaled. Just as cons , which satisfies the
+closure property, allowed us to easily build arbitrarily complicated
+list structure, the operations in this language, which also satisfy
+the closure property, allow us to easily build arbitrarily complicated
+patterns.</p>
+
+<p>The picture language is based on the language Peter Henderson created
+to construct images like M.C. Escher’s “Square Limit” woodcut (see
+Henderson 1982)</p>
+
+<h2>Our first picture</h2>
+
+<p>Here is our first picture, a stick man we will call George.</p>
+
+<p><img src="/sicpdistilled/images/1-81706ee2.png" width="400"></p>
+
+<pre><code class="clojure">(draw george)
+</code></pre>
+
+<p>We have used a function, <code>draw</code>, to draw the picture.</p>
+
+<p>Now another picture, made using a function called <code>beside</code> that takes
+two pictures and combines them left to right.</p>
+
+<p><img src="/sicpdistilled/images/2-f0fec37c.png" width="500"></p>
+
+<pre><code class="clojure">(draw (beside george george))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/3-e56d5fcd.png" width="500"></p>
+
+<pre><code class="clojure">(draw (beside george (flip-horiz george)))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/4-63bd37b0.png" width="500"></p>
+
+<pre><code class="clojure">(draw (above (beside george (flip-horiz george))
+             (beside george (flip-horiz george))))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/5-0c6c89de.png" width="500"></p>
+
+<pre><code class="clojure">(draw (rotate george))
+</code></pre>
+
+<h1>New pictures from old</h1>
+
+<p>Given that <code>above</code>, <code>beside</code> and <code>rotate</code> are functions that act on
+pictures, we can make new functions that also act on pictures
+ourselves.</p>
+
+<pre><code class="clojure">(defn rotate180 [p]
+  (rotate (rotate p)))
+
+(defn rotate270 [p]
+  (rotate (rotate (rotate p))))
+
+(defn above [p]
+  ;; ...
+  )
+</code></pre>
+
+<p><code>above</code> is left as an exercise, see the <a href="/sicpdistilled/section/project-escher">project</a></p>
+
+<p>We can even use recursive functions to draw more complex pictures:</p>
+
+<h2><code>right-split</code></h2>
+
+<pre><code class="clojure">(defn right-split [p n]
+  (if (= n 0)
+    p
+    (let [smaller (right-split p (dec n))]
+      (beside p (above smaller smaller)))))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/right-split-03bffd45.png" width="400"></p>
+
+<p><img src="/sicpdistilled/images/right-split-george-6e77c0fe.png" width="500"></p>
+
+<pre><code class="clojure">(draw (right-split george 4))
+</code></pre>
+
+<h2><code>corner-split</code></h2>
+
+<pre><code class="clojure">(defn corner-split [p n]
+  (if (= n 0)
+    p
+    (let [up (up-split p (dec n))
+          right (right-split p (dec n))
+          top-left (beside up up)
+          bottom-right (above right right)
+          top-right (corner-split p (dec n))]
+      (beside (above top-left p)
+              (above top-right bottom-right)))))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/corner-split-c2e9e0df.png" width="400"></p>
+
+<p><img src="/sicpdistilled/images/corner-split-george-c48855be.png" width="500"></p>
+
+<pre><code class="clojure">(draw (corner-split george 4))
+</code></pre>
+
+<h2><code>quartet</code></h2>
+
+<pre><code class="clojure">(defn quartet [p1 p2 p3 p4]
+  (above (beside p1 p2)
+         (beside p3 p4)))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/quartet-8f535435.png" width="400"></p>
+
+<pre><code class="clojure">(draw (quartet george box man bruce))
+</code></pre>
+
+<h1>Higher Order Operations</h1>
+
+<p>In addition to abstracting patterns of combining pictures, we can work
+at a higher level, abstracting patterns of combining picture
+transforming operations.  That is, we can view the picture
+transformations as elements to manipulate and can write means of
+combination for these elements—functions that take picture
+transformations as arguments and create new picture transformations.</p>
+
+<pre><code class="clojure">(defn square-of-four [tl tr
+                      bl br]
+  (fn [p]
+    (let [top (beside (tl p) (tr p))
+          bottom (beside (bl p) (br p))]
+      (above top
+             bottom))))
+</code></pre>
+
+<p>Takes 4 operations and returns a function of a picture that draws the
+picture transformed by them, each in a quarter of the frame</p>
+
+<pre><code class="clojure">(draw ((square-of-four identity flip-vert
+                       flip-horiz rotate)
+       george))
+</code></pre>
+
+<p><img src="/sicpdistilled/images/square-of-four-924b59e7.png" width="500"></p>
+
+<h1>We still don&#39;t know how to draw anything!</h1>
+
+<p>We have thus far treated <code>draw</code> as a primitive function and <code>george</code>
+as a primitive picture (whatever that means).</p>
+
+<p>Before we get started: a note on <a href="#">Quil</a>, a wonderful Clojure(script)
+drawing library.</p>
+
+<p>We instantiate a &#39;sketch&#39; as follows, naming it <code>Escher</code> and setting
+it&#39;s dimensions. It will call a function called <code>draw-image</code> to
+update the picture.</p>
+
+<pre><code class="clojure">(q/defsketch escher
+  :title &quot;Escher&quot;
+  :draw draw-image
+  :size [width height])
+</code></pre>
+
+<h2>Drawing lines</h2>
+
+<p>As we are using quil, we have functions for drawing lines on our sketch</p>
+
+<pre><code>quil.core/line ([p1 p2]
+                [x1 y1 x2 y2]
+                [x1 y1 z1 x2 y2 z2])
+
+Draws a line (a direct path between two points) to the screen. The
+version of line with four parameters draws the line in 2D.  ...
+
+</code></pre>
+
+<p><code>quil/draw</code> can be used in a few different ways,
+we will be mostly calling it with 2 points</p>
+
+<h2>Vectors</h2>
+
+<p>Using destructuring and Clojures vector type we define functions to
+add, subtract and &#39;scale&#39; (ie increase the length of) vectors.</p>
+
+<pre><code class="clojure">(defn add-vec [[x1 y1] [x2 y2]]
+  [(+ x1 x2) (+ y1 y2)])
+
+(defn sub-vec [[x1 y1] [x2 y2]]
+  ; ...
+  )
+
+(defn scale-vec [[x y] s]
+  ; ...
+  )
+</code></pre>
+
+<h2>Line segments</h2>
+
+<p>Are just pairs of vectors</p>
+
+<pre><code class="clojure">[[0 0] [1 1]]
+</code></pre>
+
+<h2>Paths</h2>
+
+<p>A path is a sequence of line segments</p>
+
+<pre><code class="clojure">(path [0 0] [1 1] [0 1] [0 0])
+ =&gt; (([0 0] [1 1]) ([1 1] [0 1]) ([0 1] [0 0]))
+
+(defn path [&amp; veclist]
+  ; ...
+  )
+
+</code></pre>
+
+<h1>Data is code, Code is data</h1>
+
+<p>We have seen the line between code and data blur, most strongly with
+the Church Numerals or with <code>cons</code>, <code>car</code> and <code>cdr</code> implemented as
+functions, now we do a similar thing again.</p>
+
+<p><em>Our pictures are also functions</em>, more precisely:</p>
+
+<blockquote>A picture is a function that takes a "frame" as an argument and draws itself inside it.</blockquote>
+
+<h2>What is a frame?</h2>
+
+<p>A frame is a rectangle, described precisely by an origin vector and 2
+of it&#39;s edge vectors.</p>
+
+<p><img src="/sicpdistilled/images/frame-diagram-cca5cf2f.png" width="400"></p>
+
+<pre><code class="clojure">{:origin [100 50]
+ :e1     [300 100]
+ :e2     [150 200]})
+</code></pre>
+
+<h2>Our first picture</h2>
+
+<p>This function is a picture, in that it takes a frame as an argument
+and draws something within the frame. It actually draws 4 lines, one
+along each edge of the frame.</p>
+
+<pre><code class="clojure">(defn frame-painter [{:keys [origin e1 e2]}]
+  (let [corner (add-vec origin (add-vec e1 e2))]
+    (draw-line origin (add-vec origin e1))
+    (draw-line origin (add-vec origin e2))
+    (draw-line (add-vec origin e2) corner)
+    (draw-line (add-vec origin e1) corner)))
+
+(def frame1 {:origin [200 50]
+             :e1 [200 100]
+             :e2 [150 200]})
+
+(def frame2 {:origin [50 50]
+             :e1 [100 0]
+             :e2 [0 200]})
+</code></pre>
+
+<p><img src="/sicpdistilled/images/frame-0e9fc594.png" width="500"></p>
+
+<pre><code>(frame-painter frame1)
+(frame-painter frame2)
+</code></pre>
+
+<p>You can see from using <code>frame-painter</code> on <code>frame1</code> and <code>frame2</code> what
+the shape of the frames is. We will draw more interesting things on
+them soon.</p>
+
+<p>Note that the <code>[0,0]</code> for our drawing is in the top left corner, and
+<code>y</code> increases downwards. This is standard for 2D canvases.</p>
+
+<h2>Segment painter</h2>
+
+<p>This function takes a list of segments and returns a picture (which
+remember is a function of a frame that draws things inside the frame).</p>
+
+<p>This one is harder to understand:</p>
+
+<p>Ignoring <code>frame-coord-map</code> for now, you can see it calls <code>draw-line</code>
+for each segment in <code>segment-list</code> with a transformed <code>start</code> and
+<code>end</code> (transformed by <code>m</code>, which is <code>(frame-coord-map frame)</code>)</p>
+
+<pre><code class="clojure">(defn segment-painter [segment-list]
+  (fn [frame]
+    (let [m (frame-coord-map frame)]
+      (doseq [[start end] segment-list]
+        (draw-line (m start) (m end))))))
+
+(defn frame-coord-map
+  [{:keys [origin e1 e2]}]
+  (fn [[x y]]
+    (add-vec origin
+             (add-vec (scale-vec e1 x)
+                      (scale-vec e2 y)))))
+</code></pre>
+
+<h2>What is <code>frame-coord-map</code> doing?</h2>
+
+<p>Take a look at the drawing below:</p>
+
+<pre><code class="clojure">(def diag (segment-painter [[[0 0] [1 1]]]))
+(frame-painter frame1)
+(frame-painter frame2)
+(diag frame1)
+(diag frame2)
+</code></pre>
+
+<p><img src="/sicpdistilled/images/diag-feeda6f6.png" width="500"></p>
+
+<p>We have drawn <code>frame-painter</code> again for <code>frame1</code> and <code>frame2</code>, but we
+have also drawn <code>diag</code> for each.</p>
+
+<p><code>diag</code> is a <code>segment-painter</code> for the segment <code>[[0 0] [1 1]]</code></p>
+
+<p>I hope this gives a clue to how <code>segment-painter</code> works, each segment
+passed in should be within the &#39;unit square&#39; (the square with corners
+<code>[0,0]</code>, <code>[1,0]</code>, <code>[1,1]</code> and <code>[0,1]</code>) and each is scaled using
+<code>frame-coord-map</code> to be within the frame, so that <code>[0,0]</code> is one
+corner and <code>[1,1]</code> is the opposite corner.</p>
+
+<h2>The <code>draw</code> function</h2>
+
+<p>So, we have pictures (which are functions of frames), but what exactly
+was our <code>draw</code> function, that we treated as primitive for a while,
+doing?</p>
+
+<p>Simple, <code>draw</code> takes a picture and passes it a frame that is the whole
+window (we <code>dec</code> <code>height</code> and <code>width</code> here because we want boxes etc
+to draw on the outside edges)</p>
+
+<pre><code class="clojure">(def whole-window {:origin [0 0]
+                   :e1 [(dec width) 0]
+                   :e2 [0 (dec height)]})
+
+(defn draw [picture]
+  (picture whole-window))
+</code></pre>
+
+<h1>Making new pictures from old</h1>
+
+<pre><code class="clojure">(defn transform-picture [p origin e1 e2]
+  (fn [frame]
+    (let [map (frame-coord-map frame)
+          new-origin (map origin)]
+      (p {:origin new-origin
+          :e1 (sub-vec (map e1) new-origin)
+          :e2 (sub-vec (map e2) new-origin)}))))
+</code></pre>
+
+<p>TODO: Describe <code>transform-picture</code></p>
+
+<h2><code>flip-</code> and <code>rotate</code></h2>
+
+<pre><code class="clojure">(defn flip-vert [p]
+  (transform-picture p [0 1] [1 1] [0 0]))
+
+(defn flip-horiz [p]
+  ; ...
+  )
+
+(defn rotate [p]
+  ; ...
+  )
+</code></pre>
+
+<h2><code>beside</code> and <code>above</code></h2>
+
+<pre><code class="clojure">(defn beside [p1 p2]
+  (let [split [0.5 0]
+        left (transform-picture p1 [0 0] split [0 1])
+        right (transform-picture p2 split [1 0] [0.5 1])]
+    (fn [frame]
+      (left frame)
+      (right frame))))
+
+(defn above [p1 p2]
+  ; ...
+)
+</code></pre>
+
+<h1>A different picture type</h1>
+
+<p>We used 4 pictures in the <code>quartet</code> example above: <code>george</code>, <code>box</code>,
+<code>man</code> and <code>bruce</code>. Clearly <code>bruce</code> and <code>man</code> are not made up of line
+segments like our pictures so far. They are made using Quil&#39;s
+<code>load-image</code> function and a function called <code>image-painter</code> that you
+have to complete as an exercise.</p>
+
+<p><img src="/sicpdistilled/images/bruce-6a3fe56f.png" width="400"></p>
+
+<h2>Drawing it</h2>
+
+<pre><code class="clojure">(def bruce (image-painter (q/load-image &quot;data/bruce.jpg&quot;)))
+(bruce frame1)
+(bruce frame2)
+</code></pre>
+
+<p><img src="/sicpdistilled/images/image-14798419.png" width="500"></p>
+
+<h2>Exercise: image-painter</h2>
+
+<pre><code>(defn image-painter [img]
+  (fn [{[ox oy] :origin
+        [e1x e1y] :e1
+        [e2x e2y] :e2
+        }]
+    (let [width (.width img)
+          height (.height img)]
+      ; ...
+      )))
+</code></pre>
+
+<p>See <a href="http://quil.info/api/transform">the docs</a> for Quil transforms</p>
+
+<h2>Saving images</h2>
+
+<p>Just call <code>q/save</code> inside the draw function to save an image</p>
+
+<pre><code class="clojure">(q/save &quot;5.png&quot;)
+</code></pre>
+
+<h2>Square Limit</h2>
+
+<p>We have all we need to draw Square Limit now, it is just 4 of our
+<code>corner-split</code>&#39;s rotated and reflected and arranged as below with
+<code>combine-four</code></p>
+
+<pre><code>(def combine-four (square-of-four flip-horiz
+                                  identity
+                                  rotate180
+                                  flip-vert))
+
+(defn square-limit [p n]
+  (combine-four (corner-split p n)))
+</code></pre>
+
+<h3>Bruce-Finity!</h3>
+
+<p><img src="/sicpdistilled/images/square-limit-bruce-4c1ec9ef.png" width="500"></p>
+
+<pre><code class="clojure">(draw (square-limit bruce 4))
+</code></pre>
+
+<h3>Angels</h3>
+
+<p><img src="/sicpdistilled/images/square-limit-angels-9c8a38bf.png" width="500"></p>
+
+<pre><code class="clojure">(draw (square-limit angels 4))
+</code></pre>
+
+<h1>References</h1>
+
+<ul>
+<li>Henderson&#39;s <a href="http://eprints.soton.ac.uk/257577/1/funcgeo2.pdf">wonderful paper</a></li>
+<li><a href="http://www.frank-buss.de/lisp/functional.html">Frank Buss</a> (You might want to use his tiles and do a line-segment square-limit</li>
+<li><a href="http://dl.acm.org/citation.cfm?id=1858597&amp;dl=ACM&amp;coll=DL">Escher In JS canvas</a></li>
+<li><a href="http://www.cs.ox.ac.uk/geomlab/home.html">Geomlab</a> Great intro to FP for kids based on these ideas</li>
+<li>My <a href="https://skillsmatter.com/skillscasts/5488-escaping-dsl-hell-by-having-parenthesis-all-the-way-down">talk</a> on DSLs (and my Geomlab in Clojure)</li>
+</ul>
+
+</div>
+<script src='https://cdn.polyfill.io/v1/polyfill.min.js'></script>
+<script src="/sicpdistilled/javascripts/all-0c20c227.js"></script>
+</body>

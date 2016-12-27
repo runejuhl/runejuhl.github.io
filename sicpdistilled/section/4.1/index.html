@@ -1,0 +1,742 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<meta content='IE=edge,chrome=1' http-equiv='X-UA-Compatible'>
+<meta content='width=device-width; initial-scale=1' name='viewport'>
+<title>SICP Distilled</title>
+<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
+<link href="/sicpdistilled/stylesheets/all-e81cfb05.css" rel="stylesheet" />
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type='text/x-mathjax-config'>
+MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+</head>
+</html>
+<body>
+<div class='menu--mobile js-mobile-nav' data-target='menu'>Menu</div>
+<div class='menu'>
+<a href='/'>
+<img alt='SICP Distilled' class='logo' src='/sicpdistilled/images/sicp2-07ad7dbe.jpg'>
+</a>
+<h1 class='menu__title done'>
+<a href='/'>
+SICP Distilled
+</a>
+</h1>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/licence'>
+<img alt='CC by-sa' src='https://i.creativecommons.org/l/by-sa/4.0/88x31.png' style='border-width:0'>
+Licence
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/donate'>
+<img alt='MSF ' src='/sicpdistilled/images/msf-b09b7038.jpg' style='border-width:0' width='88px'>
+Donate
+</a>
+</li>
+</ul>
+<h2>Ch1 - Building Abstractions With Functions</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/1-distilled'>
+Chapter 1 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1'>
+1.1 - The Elements Of Programming
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.1'>
+Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.2'>
+Naming and the Environment
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.3'>
+Evaluating Combinations
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.4'>
+Defining New Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.5'>
+The Substitution Model
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1-exercises'>
+Exercises
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6a'>
+Predicates
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.6b'>
+Conditional Expressions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.7'>
+Example: Newton’s Method
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.1.8'>
+Functions as Black-Box Abstractions
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2'>
+1.2 - Procedures and the Processes They Generate
+</a>
+</li>
+<ul class='menu__list_2'>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.1'>
+Linear Recursion and Iteration
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.2'>
+Tree Recursion
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.3'>
+Orders of Growth
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.4'>
+Exponentiation
+</a>
+</li>
+<il class='done'>
+<a href='/sicpdistilled/section/1.2.5'>
+Greatest Common Divisors
+</a>
+</il>
+<li class='done'>
+<a href='/sicpdistilled/section/1.2.6'>
+Example: Testing For Primality
+</a>
+</li>
+</ul>
+<li class='done'>
+<a href='/sicpdistilled/section/1.3-higher-order'>
+1.3 Higher Order Functions
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-blackjack'>
+Project - Blackjack
+</a>
+</li>
+</ul>
+<h2>Ch2 - Building Abstractions With Data</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/2-distilled'>
+Chapter 2 Distilled
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-intro'>
+Introduction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-data-abstraction'>
+Data Abstraction
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-nothing'>
+Everything From Nothing
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-abstractions'>
+Abstractions In Clojure
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-structures'>
+Clojure's Data Structures
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-data-abstraction-clj'>
+Data Abstraction, Revisited
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-escher'>
+Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/project-escher'>
+Project - Escher
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/2-symbolic'>
+Symbolic Data
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-sets'>
+Representing Sets
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-escher'>
+Huffman Encoding Trees
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/2-zippers'>
+Zippers
+</a>
+</li>
+</ul>
+<h2>Ch3 - Modularity, Objects, and State</h2>
+<h2>Ch4 - Metalinguistic Abstraction</h2>
+<ul class='menu__list'>
+<li class='done'>
+<a href='/sicpdistilled/section/4.1'>
+4.1 - The Metacircular Evaluator
+</a>
+</li>
+<li class='done'>
+<a href='/sicpdistilled/section/halting'>
+The Halting Problem
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/y'>
+The Y Combinator
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.2'>
+4.2 - Lazy Evaluation
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.3'>
+4.3 - Nondeterministic Computing
+</a>
+</li>
+<li>
+<a href='/sicpdistilled/section/4.4'>
+4.4 - Logic Programming
+</a>
+</li>
+</ul>
+</div>
+<div class='container menu--push'>
+<h1>The Metacircular Evaluator</h1>
+
+<blockquote>Steve Russell said, look, why don't I program this eval..., and I said to him, ho, ho, you're confusing theory with practice, this eval is intended for reading, not for computing. But he went ahead and did it. That is, he compiled the eval in my paper into IBM 704 machine code, fixing a bug, and then advertised this as a Lisp interpreter, which it certainly was. So at that point Lisp had essentially the form that it has today..."<cite>John McCarthy</cite></blockquote>
+
+<p>The most important lesson of SICP is perhaps that the interpreter for a programming language is <em>just another program</em></p>
+
+<h1>Eval and Apply</h1>
+
+<p><img src="/sicpdistilled/images/evalapply-dae3af78.png" width="100%"></p>
+
+<p>The core of our interpreter is the interaction between the two mutually recursive functions <code>eval</code> and <code>apply</code></p>
+
+<p>We have spent a while building up a mental model of how Clojure evaluates the s-expressions that constitute our programs.</p>
+
+<p>In words it looks something like this:</p>
+
+<h2>Eval</h2>
+
+<h3>Primitive expressions</h3>
+
+<ul>
+<li>Some things (like numbers) evaluate to themselves</li>
+<li>Variables need to be looked up in the current environment</li>
+</ul>
+
+<h3>Special Forms</h3>
+
+<ul>
+<li><code>quote</code>: Return the thing quoted (without it being evaluated)</li>
+<li><code>def</code>: Assign the name to the (evaluated) expression</li>
+<li><code>if</code></li>
+<li><code>cond</code></li>
+<li><code>fn</code>: Create a function, closing over the current environment</li>
+</ul>
+
+<h3>Evaluating Combinations</h3>
+
+<ul>
+<li>Evaluate the subexpressions of the combination</li>
+<li>Apply the procedure that is the value of the leftmost subexpression (the operator) to the arguments that are the values of the other subexpressions (the operands)</li>
+</ul>
+
+<h2>Apply</h2>
+
+<h3>Primitives</h3>
+
+<ul>
+<li>Apply them to their arguments</li>
+</ul>
+
+<h3>functions made with fn (ie &#39;compound procedures&#39;)</h3>
+
+<ul>
+<li>Evaluate the body <em>in an environment where the formal parameters are assigned to the arguments</em></li>
+</ul>
+
+<h1>As Code</h1>
+
+<h3>Destructuring</h3>
+
+<p>We make heavy use of destructuring, if you don&#39;t know how it works, see <a href="http://blog.jayfields.com/2010/07/clojure-destructuring.html">this</a> blog post from Jay Fields</p>
+
+<h3>Quick note on state</h3>
+
+<p>In order to have a purely functional interpreter we rely on eval-sexp returning a <code>State</code> that contains both the value of the passed in s-expression and a (potentially updated) environment. I chose Clojure maps for the environment as it simplified implementation massively.</p>
+
+<p>SICP actually relies on mutation and an associative data structure they create from <code>cons</code> cells, I think this version brings out the idea in a cleaner way and you see sooner all the code needed to run it yourself (&lt; 100 lines).</p>
+
+<h2>Eval</h2>
+
+<pre><code class="clojure">(defn eval-sexp [sexp env]
+  (cond
+   (self-evaluating? sexp)  ; If it is self evaluating
+   (State. sexp env)        ; return it and dont change env
+
+   (primitive-procedure-name? sexp)             ; if it&#39;s a primative procedure
+   (State. (primitive-procedure-map sexp) env)  ; look it up in primitive-procedure-map
+
+   (symbol? sexp)           ; If it is a symbol
+   (State. (env sexp) env)  ; Look it up in env, env unchanged
+
+   (seq? sexp)                 ; Otherwise, it&#39;s a sequence
+   (let [[op &amp; operands] sexp] ; We destructure the operator and operands
+     (cond
+      (= op &#39;def)                           ; If it&#39;s a def
+      (State. &#39;NIL                          ; Return nil and
+              (let [[name exp] operands     ; Fetch out the name and expression
+                    value (eval exp env)]   ; evaluate the expression
+                (assoc env name value)))    ; and assoc the name in the env to the value
+
+      (= op &#39;if)                            ; If it&#39;s an if
+      (State. (eval-if sexp env) env)       ; evaluate it using a special rule and don&#39;t change the env
+
+      (= op &#39;fn)                          ; If it&#39;s a fn
+      (let [[params body] operands]       ; destructure the params and body from operands
+        (State. (Proc. params body env)   ; Return a Proc of the parameters and body that closes over the current env
+                env))                     ; Without changing it
+
+      :else                                     ; Otherwise
+      (State. (apply (eval op env)              ; We assume it&#39;s a function call and apply the evaluated operator
+                     (map (fn [operand]         ;   (which may be a primitive or a Proc)
+                            (eval operand env)) ; to the evaluated operands
+                          operands))
+              env)))                            ; again, without changing the environment
+
+   :else
+   (error &quot;EVAL FAIL: &quot; sexp)))
+</code></pre>
+
+<h2>Apply</h2>
+
+<pre><code class="clojure">(defn apply [proc args]
+  (cond
+   (primitive-procedure? proc)   ; if it&#39;s a primitive procedure
+   (clj-apply proc args)         ; apply it (in Clojure) to the args
+
+   (compound-procedure? proc)    ; if it&#39;s a compound procedure
+   (eval (:body proc)            ; evaluate the body
+         (merge                  ; in a new environment made
+          (:env proc)            ; by taking the environment closed over on creation
+          (zipmap (:params proc) ; and assigning the formal parameters to arguments
+                  args)))
+
+   :else
+   (error &quot;APPLY FAIL: &quot; proc args)))
+</code></pre>
+
+<p>Even though we have not yet seen the definitions of a few of the functions called by <code>eval</code> and <code>apply</code>, I hope you agree that&#39;s pretty amazing!</p>
+
+<p>First a few helpers, <code>eval-sexp</code> takes an s-expression and an environment and returns a <code>State</code> that has both a <code>result</code> and a new environment</p>
+
+<pre><code class="clojure">(defrecord State [result env])
+</code></pre>
+
+<p>While <code>eval-sexp</code> returns a <code>State</code>, eval returns the resulting value and can be called without an environment (by automatically passing the empty environment)</p>
+
+<pre><code class="clojure">(defn eval
+  ([sexp] (eval sexp {}))
+  ([sexp env]
+     (:result (eval-sexp sexp env))))
+</code></pre>
+
+<h3>Booleans</h3>
+
+<p>We can use the symbols <code>TRUE</code> and <code>FALSE</code> as Boolean&#39;s</p>
+
+<pre><code class="clojure">(def bools #{&#39;TRUE &#39;FALSE})
+</code></pre>
+
+<h3>What in our language is self-evaluating?</h3>
+
+<p>Numbers in our language are just Clojure&#39;s numbers, which in turn are Java numbers, we leave them as-is.</p>
+
+<p>Also the bools above will be self-evaluating</p>
+
+<pre><code class="clojure">(defn self-evaluating? [sexp]
+  (or (number? sexp)
+      (bools sexp)))
+</code></pre>
+
+<h3>Primitives</h3>
+
+<pre><code class="clojure">(def primitive-procedure-map { &#39;+ + &#39;- - &#39;* * &#39;/ / })
+</code></pre>
+
+<p>Primitive procedures, are stored in a Clojure map, keyed by the symbol that represents them. This is subtle and you should think about it for a while.</p>
+
+<p>The symbol &#39;+ is mapping to the value of + looked up by the <em>Clojure</em> interpreter, ie the function itself.</p>
+
+<p>We add some predicates to check if something is either the Clojure function we want to use as a primitive or the name we gave it.</p>
+
+<pre><code class="clojure">(def primitive-procedure-name? (set (keys primitive-procedure-map)))
+(def primitive-procedure? (set (vals primitive-procedure-map)))
+</code></pre>
+
+<p>Note that nothing is special about the names, or the fact that we are using things that happen to be primitive in Clojure too, we could have done</p>
+
+<pre><code class="clojure">(def primitive-procedure-map { &#39;plus + &#39;minus - &#39;sq #(* % %) })
+</code></pre>
+
+<h3>Environments</h3>
+
+<p>You can see that environments in our interpreter are Clojure maps, the keys are symbols and we lookup symbols in the current environment.</p>
+
+<h2>Evaluating lists</h2>
+
+<p>We are looking at something like <code>(&lt;operator&gt; &lt;operand1&gt; &lt;operand2&gt; ...)</code></p>
+
+<h3>def</h3>
+
+<p>calling <code>(def &lt;name&gt; &lt;sexp&gt;)</code> adds the value of evaluating sexp in the current env to the environment</p>
+
+<h3>if</h3>
+
+<p>to evaluate <code>if</code> we need a special evaluation rule, note how we only evaluate one of predicate and alternative</p>
+
+<pre><code class="clojure">(defn eval-if [[_ pred consequent alternative] env]
+  (if (true? (eval pred env))
+    (eval consequent env)
+    (if (nil? alternative)
+      &#39;NIL
+      (eval alternative env))))
+</code></pre>
+
+<p>Crucially here <code>true?</code> is not Clojure&#39;s <code>true?</code></p>
+
+<pre><code class="clojure">(defn true? [sexp]
+  (not= &#39;FALSE sexp))
+</code></pre>
+
+<p>So in our language, anything that is not <code>FALSE</code> is truthy</p>
+
+<p>Also we return our languages <code>NIL</code> if the predicate is false and we don&#39;t have an alternative.</p>
+
+<h3>fn</h3>
+
+<p>If an expression is a <code>fn</code> expression we return a <code>Proc</code> object and don&#39;t change the environment.</p>
+
+<pre><code class="clojure">(defrecord Proc [params body env])
+</code></pre>
+
+<h2>Programs</h2>
+
+<p>In our simplifed interpreter, a program is just a list of s-expressions and the result is the return value of the last one.</p>
+
+<p>We can:</p>
+
+<ul>
+<li>name things with <code>def</code></li>
+<li>lookup things in an environment (here we just use Clojure maps)</li>
+<li>create functions with <code>fn</code></li>
+<li>apply primitive procedures</li>
+<li>apply compound procedures</li>
+</ul>
+
+<p>So can run some simple programs, such as:</p>
+
+<pre><code class="clojure">(def a 2)
+a
+</code></pre>
+
+<pre><code class="clojure">(def a 2)
+(def b 3)
+(+ a b)
+</code></pre>
+
+<p>and</p>
+
+<pre><code class="clojure">(def a 2)
+(def square (fn [x]
+               (* x x)))
+(square a)
+</code></pre>
+
+<p>The idea is to thread the evaluation through all the s-expressions using <code>reduce</code></p>
+
+<pre><code class="clojure">(defn next-state [last-state sexp]
+  (let [env (:env last-state)]
+    (eval-sexp sexp env)))
+
+(def initial-state (State. &#39;NIL {}))
+
+(defn eval-program [sexps]
+  (:result (reduce next-state initial-state sexps)))
+</code></pre>
+
+<p>We start with a <code>State</code> that has <code>NIL</code> as the return value and the empty environment and update it by evaluating the s-expressions one by one.</p>
+
+<p>You can see that the function passed to reduce only looks at the <code>env</code> in the state. This is correct, without side-effects there is no point doing anything other than <code>def</code> in all bar the last s-expression as only that is returned.</p>
+
+<pre><code class="clojure">(def a 2)
+(+ a 1)
+(+ a 2)
+</code></pre>
+
+<p>will return 4, the second line achieves nothing</p>
+
+<h1>Derived Expressions</h1>
+
+<p>We have not yet implemented <code>cond</code> or <code>let</code>, we could go and make a special evaluation rule as we did for <code>if</code> but a useful trick is to rewrite the expression in terms of previously defined special form.</p>
+
+<h2><code>cond</code></h2>
+
+<p>We can rewrite</p>
+
+<pre><code class="clojure">(cond (&gt; x 0)
+      x
+      (&lt;= x 0)
+      (- x))
+</code></pre>
+
+<p>as</p>
+
+<pre><code class="clojure">(if (&gt; x 0)
+  x
+  (if (&lt;= x 0)
+    (- x)))
+</code></pre>
+
+<p>To do this in our interpreter we can just add another clause to our <code>cond</code> in <code>eval-sexp</code> where we recursively call with a transformed s-expression</p>
+
+<pre><code class="clojure">(= op &#39;cond)
+(eval-sexp (cond-&gt;if sexp) env)
+</code></pre>
+
+<p>The cond-&gt;if function looks like this:</p>
+
+<pre><code class="clojure">(defn pairs-&gt;if [[pred consequence &amp; pairs]]
+  (if (nil? pairs)
+    (make-if pred consequence)
+    (make-if pred
+             consequence
+             (pairs-&gt;if pairs))))
+
+(defn cond-&gt;if [[_ &amp; pairs]]
+  (pairs-&gt;if pairs))
+</code></pre>
+
+<p>Using this helper to build <code>if</code> expressions</p>
+
+<pre><code class="clojure">(defn make-if
+  ([pred consequence]
+     (list &#39;if pred consequence))
+  ([pred consequence alternative]
+     (list &#39;if pred consequence alternative)))
+</code></pre>
+
+<h2><code>let</code></h2>
+
+<p>As <code>let</code> is a way to create a new scope with some symbols (re-)bound to expressions, we can actually rewrite it as a function application (remember that we apply compound functions is to evaluate the body in an environment where the formal parameters are assigned to the arguments)</p>
+
+<pre><code class="clojure">(let [a 1
+      b 2]
+  (+ a b))
+</code></pre>
+
+<p>Can be rewritten as</p>
+
+<pre><code class="clojure">((fn [a b]
+  (+ a b))
+ 1 2)
+</code></pre>
+
+<p>Again, we can add another clause to <code>eval-sexp</code></p>
+
+<pre><code class="clojure">(= op &#39;let)
+(eval-sexp (let-&gt;fn sexp) env)
+</code></pre>
+
+<p>Here is the function that does the transformation</p>
+
+<pre><code class="clojure">(defn let-&gt;fn [[_ bindings body]]
+  (let [params (take-nth 2 bindings)
+        args (take-nth 2 (rest bindings))]
+    (cons
+     (make-fn params body)
+     args)))
+</code></pre>
+
+<p>We destructure out the bindings, in our case <code>(&#39;a 1 &#39;b 2)</code>, and the body <code>(+ a b)</code>, we create a function with <code>a</code> and <code>b</code> as the formal parameters, immediately called with 1 and 2 as arguments</p>
+
+<h1>Recursive Function Definitions</h1>
+
+<p>While the interpreter feels fairly complete, one thing it cannot do is
+handle recursive function calls</p>
+
+<p>We cannot define a recursive factorial function</p>
+
+<pre><code class="clojure">(defn factorial [n]
+  (if (= n 1)
+      1
+      (* n (factorial (- n 1)))))
+</code></pre>
+
+<p>To achieve this we need to allow functions to refer to themselves in
+their bodies, we can change our <code>Proc</code> records to hold a name</p>
+
+<pre><code class="clojure">(defrecord Proc [params body env name])
+</code></pre>
+
+<p>We can add <code>defn</code> as a special form by adding to our <code>cond</code> in <code>eval-sexp</code></p>
+
+<pre><code class="clojure">(= op &#39;defn)
+(State. &#39;NIL                                          ; If it&#39;s a defn
+        (let [[name params body] operands             ; Destructure the name, body and params
+              new-fn (Proc. params body env name)]    ; Make a new procedure (with a name)
+          (assoc env name new-fn)))                   ; Add it to the environment
+
+</code></pre>
+
+<p>and we have to change the <code>fn</code> special form too to return a new
+<code>Proc</code>, with <code>nil</code> stored for the name</p>
+
+<pre><code class="clojure">(= op &#39;fn)                          ; If it&#39;s a fn
+(let [[params body] operands]       ; destructure the params and body from operands
+  (State. (Proc. params             ; Return a Proc of the parameters
+                 body               ; and body
+                 env                ; that closes over the current env
+                 nil)               ; and does not have a name
+          env))                     ; without changing the environment
+</code></pre>
+
+<p>We need to change the <code>compound-procedure</code> part of our <code>apply</code>
+function</p>
+
+<pre><code class="clojure">(compound-procedure? proc)    ; if it&#39;s a compound procedure
+(eval (:body proc)            ; evaluate the body
+      (merge                  ; in a new environment made
+       (:env proc)            ; by taking the environment closed over on creation
+       {(:name proc) proc}    ; adding a reference to the proc (if it has one)
+       (zipmap (:params proc) ; and assigning the formal parameters to arguments
+               args)))
+</code></pre>
+
+<h1>Exercises</h1>
+
+<p>First download the project from <a href="https://github.com/SICPDistilled/minilisp">Github</a>, I recommend <a href="https://github.com/jakemcc/lein-autoexpect">lein autoexpect</a> to give you a nice workflow changing the interpreter.</p>
+
+<h2>1. Add more types</h2>
+
+<ul>
+<li>What other types might we add to our language that are self-evaluating besides numbers and bools?</li>
+<li>Are they inherited from Clojure or just in our language?</li>
+<li>Add some primitives that operate on them, try and make some Clojure primitives and some plain Clojure functions</li>
+</ul>
+
+<h2>2. Add <code>quote</code></h2>
+
+<p>It should be that <code>(eval (quote sexp))</code> =&gt; <code>sexp</code></p>
+
+<h2>3. <code>and</code> / <code>or</code></h2>
+
+<p>Add <code>and</code> and <code>or</code> to the interpreter, with tests.</p>
+
+<p>Do one as a special form and one as a derived expression</p>
+
+<h2>4. <code>let*</code></h2>
+
+<p><code>let</code> in our language does not behave like Clojures, which allows bindings to refer to previous ones.</p>
+
+<p>Add a function <code>let*</code>, such that</p>
+
+<pre><code class="clojure">(let* [x 3
+       y (+ x 2)
+       z (+ x y 5)]
+  (* x z))
+</code></pre>
+
+<p>returns 39</p>
+
+<p>Try and do it as a special form, and a derived expression (and add tests)</p>
+
+<p>Can we use <code>let</code> (ie derive from a derived expression)?</p>
+
+<h2>5. Iteration</h2>
+
+<p>We can express iterations as recursive function calls, but sometimes it is convenient to have iteration constructs</p>
+
+<p>Can you add <code>while</code>, <code>for</code>, <code>until</code> constructs? (not necessarily matching any existing Clojure definitions)</p>
+
+<h2>6. Recursive anonymous functions</h2>
+
+<p>Clojure allows you to &#39;name&#39; anonymous functions so that you can
+recursively call them</p>
+
+<pre><code class="clojure">&gt; ((fn factorial [n]
+     (if (= n 1)
+         1
+         (* n (factorial (- n 1)))))
+   5)
+120
+</code></pre>
+
+<p>Can you implement this in our interpreter?</p>
+
+<p>Instead of making <code>defn</code> a special form, can you derive it from <code>fn</code> now?</p>
+
+</div>
+<script src='https://cdn.polyfill.io/v1/polyfill.min.js'></script>
+<script src="/sicpdistilled/javascripts/all-0c20c227.js"></script>
+</body>
